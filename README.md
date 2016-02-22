@@ -9,4 +9,5 @@
 
 ### squashing commits
 Squash the last two commits:
+
     > git rebase -i HEAD~2
