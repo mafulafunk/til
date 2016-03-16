@@ -22,6 +22,12 @@ or a little more whitespace robust
        
 
 This option prints number of line breaks (DOS Unix Mac), the byte order mark, and if the file is text or binary.
+
+## piping
+
+### into vim
+
+    >  ls -la | vim -
     
 ## git
 
