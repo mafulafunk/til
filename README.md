@@ -10,6 +10,10 @@ or a little more whitespace robust
 
     > find . -type f| while read f; do echo $f; done
     
+### recursive grep
+
+    > grep -r "commons-lang" .
+    
 ### line endings
 
     > dos2unix.exe -i /foo/bar/some.properties
