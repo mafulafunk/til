@@ -10,6 +10,10 @@ or a little more whitespace robust
 
     > find . -type f| while read f; do echo $f; done
     
+i.e. do a git pull in the subdiretories of the current folder
+    
+    > find . -type d -depth 1 | while read d; do git -C $d pull; done
+    
 ### recursive grep
 
     > grep -r "commons-lang" .
