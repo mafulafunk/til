@@ -44,4 +44,5 @@ Squash the last two commits:
 
 ### execute shell commands
 show diff to last save
+
     > :w !diff % -
