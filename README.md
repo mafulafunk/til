@@ -39,3 +39,9 @@ This option prints number of line breaks (DOS Unix Mac), the byte order mark, an
 Squash the last two commits:
 
     > git rebase -i HEAD~2
+
+## vi / vim
+
+### execute shell commands
+show diff to last save
+    > :w !diff % -
