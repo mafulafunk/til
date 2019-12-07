@@ -1,6 +1,6 @@
 # til
 
-## bash
+## bash / zsh
 
 ### loop
 
@@ -26,6 +26,23 @@ i.e. do a git pull in the subdiretories of the current folder
        
 
 This option prints number of line breaks (DOS Unix Mac), the byte order mark, and if the file is text or binary.
+
+### brace expansion
+
+    > echo a{p,c,d,b}e
+    
+is expanded to:
+    
+    ape ace ade abe
+    
+In itself kinda useless, but think about:
+
+    > echo foo/bar/more/less/{first.foo,second.foo}
+    foo/bar/more/less/first.foo foo/bar/more/less/second.foo
+    
+Exchange the `echo` with a `mv` and it executes a `move` of a file in a `distant` directory without explicitly writing out the full path.
+
+    > mv foo/bar/more/less/{first.foo,second.foo}
 
 ## piping
 
