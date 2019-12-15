@@ -63,3 +63,9 @@ Squash the last two commits:
 show diff to last save
 
     > :w !diff % -
+    
+    
+## curl
+Stuff to be found without a full featured browser
+
+    > curl ipinfo.io/8.8.8.8 
